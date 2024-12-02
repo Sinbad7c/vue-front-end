@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+  }
+  
+  .sub-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sort-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .lessons-grid {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .lesson-container {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 50px 70px 50px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .lesson-icon {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .search-icon {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    cursor: pointer; /* Optional, for a hand cursor */
+  }
+  
