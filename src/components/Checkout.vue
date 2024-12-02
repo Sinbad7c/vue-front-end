@@ -60,7 +60,7 @@
 
   </hr>
 
-   <!-- Grand Total Section -->
+   <!--  Grand Total Section  -->
    <div class="grand-total-section">
       <h3>Grand Total: ${{ grandTotal }}</h3>
    </div>
