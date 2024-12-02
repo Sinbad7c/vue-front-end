@@ -30,7 +30,7 @@
             </p>
           </div>
 
-         <!-- Action Buttons -->
+         <!--  Action Buttons  -->
           <div class="lesson-actions">
            <button 
              id="add"
