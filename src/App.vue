@@ -82,7 +82,7 @@ export default {
 .cart-icon {
   width: 20px; /* Icon size */
   height: 20px;
-  margin-left: 5px; /* Space between counter and  cart icon */
+  margin-left: 5px; /* Space between counter and icon */
   margin-right: 5px;
 }
 
