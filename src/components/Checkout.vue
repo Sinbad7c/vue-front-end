@@ -98,7 +98,7 @@
         <span v-if="errors.lastName" class="error">{{ errors.lastName }}</span>
       </div>
 
-      <!-- Address -->
+      <!--  Address  -->
       <div class="form-group">
         <label for="address">Address:</label>
         <input
