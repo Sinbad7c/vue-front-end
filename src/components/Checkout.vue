@@ -84,7 +84,7 @@
         <span v-if="errors.firstName" class="error">{{ errors.firstName }}</span>
       </div>
 
-      <!-- Last Name -->
+      <!--  Last Name  -->
       <div class="form-group">
         <label for="lastName">Last Name:</label>
         <input
