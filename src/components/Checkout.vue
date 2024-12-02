@@ -10,7 +10,7 @@
         
         <div v-for="lesson in cartItems" :key="lesson.id" class="lesson-container">
           <div class="image-container">
-          <img :src="lesson.imagePath" :alt="lesson.imageAlt" class="lesson-icon" />
+            <img :src="lesson.imagePath.startsWith('http://localhost:3000') ? lesson.imagePath : `http://localhost:3000${lesson.imagePath}`" class="lesson-icon" />
           <div class="rating">
             <span v-for="n in lesson.rating" :key="'filled-' + n" class="star filled">★</span>
             <span v-for="n in 5 - lesson.rating" :key="'empty-' + n" class="star">☆</span>
