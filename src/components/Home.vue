@@ -62,7 +62,7 @@
         </button>
 
 
-        <!-- 5-Star Rating System -->
+        <!-- 5 Star Rating System -->
         <div class="rating">
            <span v-for="n in lesson.rating" :key="'filled-' + n" class="star filled">★</span>
            <span v-for="n in 5 - lesson.rating" :key="'empty-' + n" class="star">☆</span>
