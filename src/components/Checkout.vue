@@ -141,7 +141,7 @@
         <span v-if="errors.state" class="error">{{ errors.state }}</span>
       </div>
 
-      <!-- ZIP Code -->
+      <!--  ZIP Code  -->
       <div class="form-group">
         <label for="zip">ZIP Code:</label>
         <input
