@@ -111,7 +111,7 @@
         <span v-if="errors.address" class="error">{{ errors.address }}</span>
       </div>
 
-      <!-- City -->
+      <!--  City  -->
       <div class="form-group">
         <label for="city">City:</label>
         <input
