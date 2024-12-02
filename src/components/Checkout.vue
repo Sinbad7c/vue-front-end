@@ -155,7 +155,7 @@
         <span v-if="errors.zip" class="error">{{ errors.zip }}</span>
       </div>
 
-      <!-- Checkbox -->
+      <!--  Checkbox  -->
       <div class="form-group checkbox-group">
         <label for="shipAsGift">Ship as Gift</label>
         <input
