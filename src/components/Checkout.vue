@@ -124,7 +124,7 @@
         <span v-if="errors.city" class="error">{{ errors.city }}</span>
       </div>
 
-      <!-- State Dropdown -->
+      <!--  State Dropdown  -->
       <div class="form-group">
         <label for="state">State:</label>
         <select
